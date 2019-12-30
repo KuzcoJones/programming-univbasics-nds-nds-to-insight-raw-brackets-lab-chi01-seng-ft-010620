@@ -3,10 +3,11 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-
+  my_hash = {}
   i_directors = 0
-  total_gross = 0
+  
   while i_directors < nds.length do 
+    total_gross = 0
     i_movies = 0
     #if directors_name was an array and it saved each name as it looped
     #Would that make it searchable
@@ -22,5 +23,6 @@ def directors_totals(nds)
     i_directors += 1 
     
   end
-  puts
+
+  my_hash
 end
