@@ -22,6 +22,6 @@ def directors_totals(nds)
     i_directors += 1 
     
   end
-  puts "***********"
+
   puts my_hash
 end
