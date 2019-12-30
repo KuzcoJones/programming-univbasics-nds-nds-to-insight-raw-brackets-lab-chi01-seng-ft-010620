@@ -23,5 +23,5 @@ def directors_totals(nds)
     
   end
 
-  puts my_hash
+
 end
