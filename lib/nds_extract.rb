@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  puts nds
+
   i_directors = 0
  total_gross = 0
  while i_directors < nds.length do 
